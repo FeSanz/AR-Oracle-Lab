@@ -16,7 +16,7 @@ namespace Assets.SimpleSlider.Scripts
 		[SerializeField, Tooltip("Umbral de deslizamiento")] private int SwipeThreshold = 50;
 		[SerializeField, Tooltip("Tiempo de deslizamiento")] private float SwipeTime = 0.5f;
 
-		[SerializeField, Tooltip("Pagina con video")] private GameObject[] video;
+		//[SerializeField, Tooltip("Pagina con video")] private GameObject[] video;
 
 		private ScrollRect _scrollRect;
 		private Toggle[] _pageToggles;
@@ -58,7 +58,7 @@ namespace Assets.SimpleSlider.Scripts
 				if (!_pageToggles[page].isOn)
 				{
 					UpdatePaginator(page);
-					VideoSlide(page);
+					//VideoSlide(page);
 				}
 			}
 
@@ -73,7 +73,7 @@ namespace Assets.SimpleSlider.Scripts
 			}
 		}
 
-		private void VideoSlide(int page)
+		/*private void VideoSlide(int page)
 		{
 			foreach (GameObject item in video)
 			{
@@ -84,7 +84,7 @@ namespace Assets.SimpleSlider.Scripts
 			{
 				video[page].SetActive(true);
 			}
-		}
+		}*/
 
 		/// <summary>
 		/// Inicia Scroll Rect - (Random o Normal)
