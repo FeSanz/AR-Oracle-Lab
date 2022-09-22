@@ -35,6 +35,14 @@ public class GyroscopeController : MonoBehaviour
             transform.eulerAngles = targetEulerAngles;
         }
     }
+    
+    /// <summary>
+    /// Resetea posicion de camara
+    /// </summary>
+    public void ResetCamera()
+    {
+        transform.eulerAngles = new Vector3(0, 0, 0);
+    }
 
     /// <summary>
     /// Verifica soporte el giroscopio y lo habilita
