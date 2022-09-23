@@ -18,6 +18,9 @@ EditorBuildSettings:
     path: Assets/Scenes/ScenePH.unity
     guid: 4bb5e88f7a456dc4cb1af9c8d868c7af
   - enabled: 1
+    path: Assets/Scenes/SceneUR.unity
+    guid: 3c6dd24048fdc5b4ba1480b587ad254a
+  - enabled: 1
     path: Assets/Scenes/ContactScene.unity
     guid: 041fade657e431245a45d219e9f66b47
   - enabled: 1

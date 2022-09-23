@@ -1033,17 +1033,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PreviewVisible: 1
   RuntimeOcclusion: 0
-  mTrackableName: vumark
+  mTrackableName: Mark
   mInitializedInEditor: 1
   mDataSetPath: 
   mAspectRatio: 1
   mImageTargetType: 3
   mWidth: 100
   mHeight: 100
-  mRuntimeTexture: {fileID: 2800000, guid: 0c12b5c504af39442b524313a43bd82d, type: 3}
+  mRuntimeTexture: {fileID: 2800000, guid: 0ff6c49c2c23b9340a2da86ccac2a1c3, type: 3}
   mMotionHint: 1
   mTrackingOptimization: 0
-  mTrackingOptimizationNeedsUpgrade: 1
+  mTrackingOptimizationNeedsUpgrade: 0
   mPreview: {fileID: 564087814}
 --- !u!4 &564087813
 Transform:
@@ -1076,7 +1076,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mObserverBehaviour: {fileID: 564087812}
   mHiddenRoot: {fileID: 0}
-  mTargetName: vumark
+  mTargetName: Mark
   mDatasetName: 
   mCastedBehaviour: {fileID: 564087812}
   mMeshFilter: {fileID: 0}
@@ -2511,7 +2511,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Texture: {fileID: 2800000, guid: 0c12b5c504af39442b524313a43bd82d, type: 3}
+  m_Texture: {fileID: 2800000, guid: 4213317385bd2614584a49929fe6bdfb, type: 3}
   m_UVRect:
     serializedVersion: 2
     x: 0
