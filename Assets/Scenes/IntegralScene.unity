@@ -157,10 +157,10 @@ RectTransform:
   m_Father: {fileID: 667461282}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 22.159653, y: -17.9285}
-  m_SizeDelta: {x: 25, y: 25}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &232920170
 MonoBehaviour:
@@ -273,7 +273,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &235038117
 RectTransform:
   m_ObjectHideFlags: 0
@@ -292,8 +292,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0.0034179688, y: -0.1439209}
-  m_SizeDelta: {x: -0.98999023, y: -0.5999756}
+  m_AnchoredPosition: {x: 0.0034179688, y: 8.068085}
+  m_SizeDelta: {x: -0.99, y: 15.8238}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &235038118
 MonoBehaviour:
@@ -454,10 +454,10 @@ RectTransform:
   m_Father: {fileID: 847062287}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 235.6249, y: -435}
-  m_SizeDelta: {x: 450, y: 150}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &240464668
 MonoBehaviour:
@@ -503,14 +503,14 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
-        m_Mode: 1
+      - m_Target: {fileID: 2102987132}
+        m_TargetAssemblyTypeName: IntegralBehaviour, Assembly-CSharp
+        m_MethodName: ContentShow
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
-          m_IntArgument: 0
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 3
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -725,10 +725,10 @@ RectTransform:
   m_Father: {fileID: 847062287}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 235.6249, y: -270}
-  m_SizeDelta: {x: 450, y: 150}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &335501443
 MonoBehaviour:
@@ -774,14 +774,14 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
-        m_Mode: 1
+      - m_Target: {fileID: 2102987132}
+        m_TargetAssemblyTypeName: IntegralBehaviour, Assembly-CSharp
+        m_MethodName: ContentShow
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
-          m_IntArgument: 0
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 2
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -993,10 +993,10 @@ RectTransform:
   m_Father: {fileID: 667461282}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 92.15965, y: -17.9285}
-  m_SizeDelta: {x: 25, y: 25}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &405928056
 MonoBehaviour:
@@ -1418,7 +1418,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Descubra como realizar  la implementaci\xF3n de la industria 4x"
+  m_text: Aprobaciones personalizadas en la nube con el uso de OPC
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: a9e80bf10c0d42946935da4fcde806ca, type: 2}
   m_sharedMaterial: {fileID: 7552019137635573086, guid: a9e80bf10c0d42946935da4fcde806ca, type: 2}
@@ -1532,10 +1532,10 @@ RectTransform:
   m_Father: {fileID: 847062287}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 235.6249, y: -765}
-  m_SizeDelta: {x: 450, y: 150}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &533635976
 MonoBehaviour:
@@ -1581,14 +1581,14 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
-        m_Mode: 1
+      - m_Target: {fileID: 2102987132}
+        m_TargetAssemblyTypeName: IntegralBehaviour, Assembly-CSharp
+        m_MethodName: ContentShow
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
-          m_IntArgument: 0
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 5
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -2345,8 +2345,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0.0034179688, y: -0.1439209}
-  m_SizeDelta: {x: -0.98999023, y: -0.5999756}
+  m_AnchoredPosition: {x: 0.0034179688, y: 8.068085}
+  m_SizeDelta: {x: -0.99, y: 15.8238}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &809876330
 MonoBehaviour:
@@ -2427,7 +2427,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -0.001159668, y: -43.184464}
+  m_AnchoredPosition: {x: -0.001159668, y: -43.18457}
   m_SizeDelta: {x: 0.0023, y: 86.3674}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &847062288
@@ -2529,10 +2529,10 @@ RectTransform:
   m_Father: {fileID: 847062287}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 235.6249, y: -600}
-  m_SizeDelta: {x: 450, y: 150}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &857761208
 MonoBehaviour:
@@ -2578,14 +2578,14 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
-        m_Mode: 1
+      - m_Target: {fileID: 2102987132}
+        m_TargetAssemblyTypeName: IntegralBehaviour, Assembly-CSharp
+        m_MethodName: ContentShow
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
-          m_IntArgument: 0
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 4
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -2664,7 +2664,7 @@ RectTransform:
   m_AnchorMin: {x: 1, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
   m_AnchoredPosition: {x: -76, y: -0.0000371933}
-  m_SizeDelta: {x: 140, y: 140}
+  m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &873820412
 MonoBehaviour:
@@ -2686,7 +2686,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: bc6bf60433c33684f8b89726ea6ee307, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 8f1519076c80e4c898020fd9a0cfc307, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2762,8 +2762,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Conozca nuestra demo para el control de calidad con un robot colaborativo
-    y sistemas de visi\xF3n"
+  m_text: Conoce las ventajas de implementar reconocimiento facial
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: a9e80bf10c0d42946935da4fcde806ca, type: 2}
   m_sharedMaterial: {fileID: 7552019137635573086, guid: a9e80bf10c0d42946935da4fcde806ca, type: 2}
@@ -2797,7 +2796,7 @@ MonoBehaviour:
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
-  m_HorizontalAlignment: 16
+  m_HorizontalAlignment: 1
   m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
@@ -3011,7 +3010,7 @@ RectTransform:
   m_AnchorMin: {x: 1, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
   m_AnchoredPosition: {x: -76, y: -0.0000371933}
-  m_SizeDelta: {x: 140, y: 140}
+  m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1055452326
 MonoBehaviour:
@@ -3033,7 +3032,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: bc6bf60433c33684f8b89726ea6ee307, type: 3}
+  m_Sprite: {fileID: 21300000, guid: bc954a304baaf4a94bd6dbce6288d9cc, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -3087,7 +3086,7 @@ RectTransform:
   m_AnchorMin: {x: 1, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
   m_AnchoredPosition: {x: -76, y: -0.0000371933}
-  m_SizeDelta: {x: 140, y: 140}
+  m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1156274427
 MonoBehaviour:
@@ -3109,7 +3108,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: cd637475330e332438214ff081fee436, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 2ad874fb719284042acf22a15744ad54, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -3144,7 +3143,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1227314385
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3240,10 +3239,10 @@ RectTransform:
   m_Father: {fileID: 667461282}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 57.159653, y: -17.9285}
-  m_SizeDelta: {x: 25, y: 25}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1230614157
 MonoBehaviour:
@@ -3531,8 +3530,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Conozca nuestra demo para medir  la eficiencia, calidad y disponibilidad
-    de una m\xE1quina"
+  m_text: Conoce las ventajas de integrar asistentes de voz un sistema
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: a9e80bf10c0d42946935da4fcde806ca, type: 2}
   m_sharedMaterial: {fileID: 7552019137635573086, guid: a9e80bf10c0d42946935da4fcde806ca, type: 2}
@@ -3802,7 +3800,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "P\xF3ngase en contacto con alguno de nuestos gerentes de ventas"
+  m_text: "Brindamos la soluci\xF3n adecuada automatizando y haciendo m\xE1s \xE1gil
+    el proceso"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: a9e80bf10c0d42946935da4fcde806ca, type: 2}
   m_sharedMaterial: {fileID: 7552019137635573086, guid: a9e80bf10c0d42946935da4fcde806ca, type: 2}
@@ -3937,8 +3936,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Conozca nuestra demo de integraci\xF3n y control de una planta con un
-    ERP"
+  m_text: "Desarrollo de aplicaciones en la nube de manera m\xE1s \xE1gil"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: a9e80bf10c0d42946935da4fcde806ca, type: 2}
   m_sharedMaterial: {fileID: 7552019137635573086, guid: a9e80bf10c0d42946935da4fcde806ca, type: 2}
@@ -4127,7 +4125,7 @@ RectTransform:
   m_AnchorMin: {x: 1, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
   m_AnchoredPosition: {x: -76, y: -0.0000371933}
-  m_SizeDelta: {x: 140, y: 140}
+  m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1494757250
 MonoBehaviour:
@@ -4149,7 +4147,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 1865991a52cabb1418ca50c32e8d6016, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 798747cfa976b4d7299d47c27b180a88, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -4262,7 +4260,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1693736051
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4378,12 +4376,12 @@ GameObject:
   - component: {fileID: 1712711540}
   - component: {fileID: 1712711539}
   m_Layer: 5
-  m_Name: BackButton
+  m_Name: BackMenuButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1712711538
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4449,10 +4447,10 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2102987131}
-        m_TargetAssemblyTypeName: ChangeScene, Assembly-CSharp
-        m_MethodName: ChangeScenebyName
-        m_Mode: 5
+      - m_Target: {fileID: 2102987132}
+        m_TargetAssemblyTypeName: IntegralBehaviour, Assembly-CSharp
+        m_MethodName: ContentHide
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -4535,7 +4533,7 @@ RectTransform:
   m_AnchorMin: {x: 1, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
   m_AnchoredPosition: {x: -76, y: -0.0000371933}
-  m_SizeDelta: {x: 140, y: 140}
+  m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1729791022
 MonoBehaviour:
@@ -4557,7 +4555,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 78c7a286bd58f7343a198452c2cf7ba8, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 9e9e9e20b583c49e499aa8a51de13c22, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -4610,8 +4608,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0.0034179688, y: -0.1439209}
-  m_SizeDelta: {x: -0.98999023, y: -0.5999756}
+  m_AnchoredPosition: {x: 0.0034179688, y: 8.068085}
+  m_SizeDelta: {x: -0.99, y: 15.8238}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1747138998
 MonoBehaviour:
@@ -4694,8 +4692,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: -8.211914}
+  m_SizeDelta: {x: 0, y: -16.4236}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1779210001
 MonoBehaviour:
@@ -4907,10 +4905,10 @@ RectTransform:
   m_Father: {fileID: 847062287}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 235.6249, y: -105}
-  m_SizeDelta: {x: 450, y: 150}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1847480421
 MonoBehaviour:
@@ -4956,14 +4954,14 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
-        m_Mode: 1
+      - m_Target: {fileID: 2102987132}
+        m_TargetAssemblyTypeName: IntegralBehaviour, Assembly-CSharp
+        m_MethodName: ContentShow
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
-          m_IntArgument: 0
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 1
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -5042,8 +5040,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0.0034179688, y: -0.1439209}
-  m_SizeDelta: {x: -0.98999023, y: -0.5999756}
+  m_AnchoredPosition: {x: 0.0034179688, y: 8.068085}
+  m_SizeDelta: {x: -0.99, y: 15.8238}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1867231089
 MonoBehaviour:
@@ -5252,10 +5250,10 @@ RectTransform:
   m_Father: {fileID: 667461282}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 127.15965, y: -17.9285}
-  m_SizeDelta: {x: 25, y: 25}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2056913736
 MonoBehaviour:
@@ -5531,7 +5529,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2102987125}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: abb4d1871b300af419a890ce3cd19161, type: 3}
   m_Name: 
@@ -5565,8 +5563,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 84ad229b25cd7447d869b456ffffa38e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  menu: []
-  content: []
+  menu:
+  - {fileID: 1227314384}
+  - {fileID: 1693736050}
+  content:
+  - {fileID: 1712711537}
+  - {fileID: 235038116}
+  - {fileID: 2128308452}
+  - {fileID: 1867231087}
+  - {fileID: 1747138996}
+  - {fileID: 809876328}
 --- !u!1 &2128308452
 GameObject:
   m_ObjectHideFlags: 0
@@ -5603,8 +5609,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0.0034179688, y: -0.1439209}
-  m_SizeDelta: {x: -0.98999023, y: -0.5999756}
+  m_AnchoredPosition: {x: 0.0034179688, y: 8.068085}
+  m_SizeDelta: {x: -0.99, y: 15.8238}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2128308454
 MonoBehaviour:

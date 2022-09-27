@@ -27,6 +27,9 @@ EditorBuildSettings:
     path: Assets/Scenes/SecurityScene.unity
     guid: 41ee2f987d1755344b7e560d77d96e67
   - enabled: 1
+    path: Assets/Scenes/IntegralScene.unity
+    guid: b8358f199b17e419fa0fdc38ddb2fc2b
+  - enabled: 1
     path: Assets/Scenes/ApplyIndustyScene.unity
     guid: 4d9f08abbcdc9a7439447f3e5cdb92ba
   - enabled: 1
