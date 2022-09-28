@@ -11,7 +11,7 @@ public class ChangeScene : MonoBehaviour
   /// <param name="nameScene">Nombre de la escena</param>
   public void ChangeScenebyName(string nameScene)
   {
-    Screen.orientation = ScreenOrientation.AutoRotation; 
+    //Screen.orientation = ScreenOrientation.AutoRotation; 
     SceneManager.LoadScene(nameScene);
   }
 
